@@ -19,12 +19,22 @@
             <artifactId>selenium-java</artifactId>
             <version>4.29.0</version>
         </dependency>
-        <!-- TestNG (For better test management) -->
+        <!-- TestNG  -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.9.0</version>
-            <scope>main</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.9.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.9.2</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 </project>
